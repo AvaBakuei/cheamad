@@ -13,7 +13,7 @@ export function Navbar() {
             <NavigationMenuItem className="flex items-center">
                 {navItems.map((nav, i) => (
                     <NavLink to={nav.path} key={i}>
-                        <NavigationMenuLink className={`${navigationMenuTriggerStyle()} font-semibold text-sky-800 text-base`}>
+                        <NavigationMenuLink className={`${navigationMenuTriggerStyle()} font-semibold text-primary text-[16px]`}>
                             {nav.name}
                         </NavigationMenuLink>
                     </NavLink>
