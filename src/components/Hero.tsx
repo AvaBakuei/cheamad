@@ -6,7 +6,7 @@ export function Hero() {
                 <h1 className="mb-6 text-5xl text-left text-tertiary">
                     One Click Away from Your Next Adventure!
                 </h1>
-                <span className="text-xl text-left text-tertiary">Experience More – Find the Best Events Here!</span>
+                <h6 className="text-xl text-left text-tertiary">Experience More – Find the Best Events Here!</h6>
             </div>
             <img
                 src={heroBg}
