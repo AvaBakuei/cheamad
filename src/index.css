@@ -28,8 +28,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -134,4 +132,27 @@ button:focus-visible {
   body {
     @apply bg-background text-foreground;
   }
+}
+li {
+  list-style-type: none;
+}
+
+/* Navbar Style */
+
+.hideMenuNav {
+  display: none;
+}
+.showMenuNav {
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  background: white;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
