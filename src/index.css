@@ -15,6 +15,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --primary-color: #4a4947;
+  --secondary-color: #b17457;
+  --thirdly-color: #d8d2c2;
+  --tertiary-color: #faf7f0;
 }
 
 a {
@@ -155,4 +159,19 @@ li {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+}
+
+/* Categories */
+.categories:hover {
+  color: var(--secondary-color);
+  transition: ease-out 0.3s;
+}
+.categories-icon {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+}
+.categories-icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
 }
