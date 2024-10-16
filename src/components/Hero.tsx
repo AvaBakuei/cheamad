@@ -11,7 +11,7 @@ export function Hero() {
             <img
                 src={heroBg}
                 alt="Background"
-                className="w-full h-[550px] object-cover z-0 brightness-50"
+                className="w-full h-[500px] object-cover z-0 brightness-50"
             />
         </div>
     );

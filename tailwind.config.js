@@ -10,10 +10,10 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       colors: {
-        primary: "#4A4947",
-        secondary: "#B17457",
-        thirdly: "#D8D2C2",
-        tertiary: "#FAF7F0",
+         primary: "var(--primary-color)",
+        secondary: "var(--secondary-color)",
+        thirdly: "var(--thirdly-color)",
+        tertiary: "var(--tertiary-color)",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
