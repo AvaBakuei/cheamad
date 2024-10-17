@@ -18,7 +18,16 @@
   --primary-color: #4a4947;
   --secondary-color: #b17457;
   --thirdly-color: #d8d2c2;
+  --fourthly-color: #9a7e6f;
   --tertiary-color: #faf7f0;
+}
+.text-primary-opacity-75 {
+  color: var(--primary-color);
+  opacity: 0.75;
+}
+.text-secondary-opacity-75 {
+  color: var(--secondary-color);
+  opacity: 0.75;
 }
 
 a {
@@ -174,4 +183,16 @@ li {
 .categories-icon svg {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+/* Card */
+.card-img {
+  height: 200px;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
 }

@@ -1,4 +1,4 @@
-import { CategoryType } from "./types/categoriesType";
+import { CategoryType } from "../types/categoriesType";
 
 export const Categories: React.FC<CategoryType> = ({ categories }) => {
     return (

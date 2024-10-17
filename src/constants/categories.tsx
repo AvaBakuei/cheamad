@@ -1,5 +1,5 @@
 import { Drum, Dumbbell, Drama, Utensils, Gamepad2 } from 'lucide-react';
-import { CategoryInterface } from "@/components/types/categoriesType";
+import { CategoryInterface } from "@/types/categoriesType";
 export const categories: CategoryInterface[] = [
     {
         id: "Music",
