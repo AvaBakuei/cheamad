@@ -13,6 +13,7 @@ export default {
          primary: "var(--primary-color)",
         secondary: "var(--secondary-color)",
         thirdly: "var(--thirdly-color)",
+        fourthly: "var(--fourthly-color)",
         tertiary: "var(--tertiary-color)",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
